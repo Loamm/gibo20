@@ -43,6 +43,9 @@ body {
 .header__logo {
 	float: left;
 }
+.logo__picture {
+	height: 3.25rem;
+}
 .header__contact {
 	float: right;
 	text-align: right;
