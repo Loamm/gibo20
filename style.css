@@ -1,0 +1,68 @@
+@import url("css/normalize.css");
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+html {
+	font-size 100%
+}
+
+.page__row {
+	width: 100%;
+	float: center;
+}
+.page__cell {
+	max-width: 1220px;
+	margin: 0 auto 0 auto;
+	padding: 0 20px;
+}
+.header {
+	padding: 0.5rem 0;
+}
+.header__logo {
+	font-family: 'Permanent Marker', cursive;
+	font-weight: 400px;
+	font-size: 2.5rem;
+	float: left;
+}
+.nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	width: 35%;
+	float: right;
+	margin-top: 0.7rem;
+}
+.nav__link {
+	text-decoration: none;
+	text-underline-position: none;
+	color: black;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1.2rem;
+	transition: 0.3s;
+}
+.nav__link:hover {
+	color: rgb(232, 76, 61);
+	font-size: 1.3rem;	
+}
