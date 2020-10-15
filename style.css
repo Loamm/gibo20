@@ -34,8 +34,9 @@ body {
 	float: center;
 }
 .page__cell {
-	max-width: 1180px;
+	max-width: 1220px;
 	margin: 0 auto 0 auto;
+	padding: 0 20px;
 }
 .header {
 	border-bottom: 1px solid #ccc;
@@ -46,6 +47,7 @@ body {
 }
 .logo__picture {
 	height: 3.25rem;
+	max-width: 100%;
 }
 .header__contact {
 	float: right;
@@ -219,4 +221,30 @@ body {
 }
 .footer {
 	padding: 1.4rem 0;
+}
+.btn-nav {
+	border: 0;
+	background: none;
+	padding: 0.7rem;
+	cursor: pointer;
+	border-radius: 0.2rem;
+}
+.btn-nav:hover {
+	background: #dadada;
+}
+.btn-nav__span {
+	display: block;
+	width: 20px;
+	height: 2px;
+	border-radius: 1px;
+	background: black;
+	margin-bottom: 3px;
+}
+.btn-nav__span:last-chaild {
+	margin-bottom: 0;
+}
+.nav__btm {
+	text-align: right;
+	margin: 0.6rem 0;
+	display: none;
 }
