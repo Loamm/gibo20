@@ -119,3 +119,44 @@ body {
 	left: 0;
 	right: 0;
 }
+.headline {
+	font-size: 1.75rem;
+	font-weight: 400px;
+	text-align: center;
+	padding: 1rem 0;
+}
+.grid__item {
+	float: left;
+	margin-right: 1.7%;
+	margin-bottom: 1.7%;
+	width: 49.15%;
+	position: relative;
+}
+.grid__item:nth-of-type(2n) {
+	margin-right: 0;
+}
+.grid__overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+.grid__picture {
+	max-width: 100%;
+	display: block;
+}
+.grid__link {
+	color: #fff;
+	font-size: 1.8125rem;
+	font-weight: 300px;
+	text-align: center;
+}
+.grid__text {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+}
