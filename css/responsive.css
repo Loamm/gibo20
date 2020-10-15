@@ -10,6 +10,9 @@
 	}
 	.nav__list {
 		display: none;
+		float: right;
+		width: 100px;
+		position: relative;
 	}
 	.nav__btm,
 	.nav__list--open {
@@ -19,6 +22,7 @@
 		padding: 1rem;
 		display: inline-block;
 	}
+
 }
 
 @media screen and (max-width: 600px) {
