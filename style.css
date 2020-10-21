@@ -1,5 +1,3 @@
-@import url("css/normalize.css");
-
 *,
 *::before,
 *::after {
@@ -7,39 +5,40 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
 * {
-	margin: 0;
+	box-sizing: border-box;
 }
-
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
-
 html {
 	font-size: 100%;
+}
+
+body {
+	background-color: rgb(237, 237, 237);
 }
 .page__row {
 	width: 100%;
 	float: center;
-	position: fixed;
+}
+.fix {
+	height: 5rem;
 }
 .page__cell {
 	max-width: 1220px;
 	margin: 0 auto 0 auto;
 	padding: 0 20px;
-	background-color: rgb(237, 237, 237);
-}
-.page__cell--header {
-	max-width: 100%;
-	padding: 0;
+	background-color: white;
 }
 .header {
 	height: 5rem;
+	width: 100%;
 	padding: 0 5rem;
 	background-color: rgb(32, 37, 40);
+	position: fixed;
 }
 .header__logo {
 	font-family: 'Permanent Marker', cursive;
@@ -74,13 +73,25 @@ html {
 	color: rgb(232, 76, 61);
 	font-size: 1.3rem;	
 }
-.headline {
+.block-one {
+	margin-top: 6rem;
+	padding: 3rem 0;
+
+}
+
+.headline__text {
 	color: black;
 	font-family: 'Permanent Marker', cursive;
 	font-weight: bold;
 	font-size: 1.8rem;
-	padding-top: 3rem;
 	text-align: center;
+	margin-bottom: 0.4rem;
+}
+.headline__line {
+	width: 7rem;
+	height: 3px;
+	background-color: #e84c3d;
+	margin: auto;
 }
 .timetable__week {
 	display: flex;
@@ -92,21 +103,172 @@ html {
 	justify-content: space-between;
 	padding-top: 3rem;
 }
+.timetable__day {
+	border: solid 1px #c9c9c9;
+}
 .day__list {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	width: 10rem;
+	line-height: 1.45;
+	padding-left: 0.4rem;
+	padding-top: 0.4rem;
 }
 
-.margin-fix {
-	margin-top: 5rem;
-}
 .day__headline {
 	font-family: 'Permanent Marker', cursive;
 	font-weight: bold;
 	text-align: center;
+	padding: 0.4rem; 
+	border-bottom: solid 1px #c9c9c9;
 }
 .timetable__item {
 	font-family: 'Neucha', cursive;
+}
+
+
+
+/*-------------------------------------------------
+--------------------Homework-----------------------
+---------------------------------------------------*/
+
+
+
+.block-two {
+	margin-top: 10rem;
+	padding: 3rem 0;
+}
+.home-work{
+	margin-top: 3rem;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+
+.home-work__line {
+	width: 100%;
+}
+
+
+
+.home-work__cellM1 {
+	width: 10%;
+	height: 3rem;
+	border: solid 1px #c9c9c9;
+	font-family: 'Permanent Marker', cursive;
+}
+.home-work__cellM2 {
+	width: 20%;
+	height: 3rem;
+	border: solid 1px #c9c9c9;
+	font-family: 'Permanent Marker', cursive;
+}
+.home-work__cellM3 {
+	width: 50%;
+	height: 3rem;
+	border: solid 1px #c9c9c9;
+	font-family: 'Permanent Marker', cursive;
+}
+.home-work__cellM4 {
+	width: 20%;
+	height: 3rem;
+	border: solid 1px #c9c9c9;
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+.home-work__cell1 {
+	width: 10%;
+	height: 2rem;
+	border: solid 1px #c9c9c9;
+	font-family: 'Neucha', cursive;
+}
+.home-work__cell2 {
+	width: 20%;
+	height: 2rem;	
+	border: solid 1px #c9c9c9;
+	font-family: 'Neucha', cursive;
+}
+.home-work__cell3 {
+	width: 50%;
+	height: 2rem;	
+	border: solid 1px #c9c9c9;
+	font-family: 'Neucha', cursive;
+}
+.home-work__cell4 {
+	width: 20%;
+	height: 2rem;
+	border: solid 1px #c9c9c9;
+	font-family: 'Neucha', cursive;
+}
+
+
+
+/*-------------------------------------------------
+--------------------Materials----------------------
+---------------------------------------------------*/
+
+
+
+.block-three {
+	margin-top: 10rem;
+	padding: 3rem 0;
+	height: 60rem;
+}
+
+
+.subjects {
+	margin-top: 3rem;
+}
+
+
+.subjects__item {
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	width: 32%;
+	height: 15rem;
+	position: relative;
+}
+.subjects__overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	transition: 1.3s;
+}
+.subjects__text {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	font-family: 'Neucha', cursive;
+	font-size: 2.5rem;
+	color: white;
+	transition: 1.3s;
+}
+.subjects__item:hover .subjects__overlay {
+		background: rgba(0, 0, 0, 0.8);
+}
+.subjects__item:hover .subjects__text {
+	font-size: 3.5rem;
+}
+
+.subjects__picture {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.subjects__link {
+	color: #fff;
+	font-size: 1.8125rem;
+	font-weight: 300px;
+	text-align: center;
+}
+.subjects__item:nth-of-type(3n){
+	margin-right: 0;
 }
