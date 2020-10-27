@@ -39,6 +39,7 @@ body {
 	padding: 0 5rem;
 	background-color: rgb(32, 37, 40);
 	position: fixed;
+	z-index: 1;
 }
 .header__logo {
 	font-family: 'Permanent Marker', cursive;
@@ -230,6 +231,7 @@ body {
 	width: 32%;
 	height: 15rem;
 	position: relative;
+	z-index: 0;
 }
 .subjects__overlay {
 	position: absolute;
