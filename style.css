@@ -124,7 +124,7 @@ body {
 	border-bottom: solid 1px #c9c9c9;
 }
 .timetable__item {
-	font-family: 'Neucha', cursive;
+	font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -255,7 +255,7 @@ body {
 		background: rgba(0, 0, 0, 0.8);
 }
 .subjects__item:hover .subjects__text {
-	font-size: 3.5rem;
+	font-size: 2.8rem;
 }
 
 .subjects__picture {
@@ -272,3 +272,4 @@ body {
 .subjects__item:nth-of-type(3n){
 	margin-right: 0;
 }
+
