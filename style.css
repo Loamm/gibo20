@@ -92,11 +92,14 @@ html {
 	justify-content: space-between;
 	padding-top: 3rem;
 }
+.timetable__day {
+	width: 10rem;
+	border: 2px solid rgb(198, 198, 198);
+}
 .day__list {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	width: 10rem;
 }
 
 .margin-fix {
@@ -106,7 +109,9 @@ html {
 	font-family: 'Permanent Marker', cursive;
 	font-weight: bold;
 	text-align: center;
+	border-bottom: 2px solid rgb(198, 198, 198);
 }
 .timetable__item {
 	font-family: 'Neucha', cursive;
+	line-height: 1.375;
 }
