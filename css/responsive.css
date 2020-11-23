@@ -118,6 +118,12 @@
 	}
 }
 
+@media screen and (max-width: 360px) {
+	.timetable__day {
+	width: 18rem;
+	}
+}
+
 @media screen and (max-width: 320px) {
 	html {
 		font-size: 78.8%;
