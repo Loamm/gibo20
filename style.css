@@ -157,6 +157,7 @@ a {
 	text-align: center;
 	font-size: 1.2rem;
 	margin-top: 3rem;
+	border: solid 1px #c9c9c9;
 }
 
 .timetable__day {
@@ -270,6 +271,10 @@ a {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.ico__row{
+	float: right;
+	margin-right: 4px;
+}
 .ico__deadline {
 	height: 1.5rem;
 }
@@ -282,7 +287,7 @@ a {
 .post-scriptom__cell__text {
 	font-family: 'Montserrat', sans-serif;
 	margin-block-start: 0;
-    margin-block-end: 0;
+    margin-block-end: 5px;
 }
 
 .ffloat {
