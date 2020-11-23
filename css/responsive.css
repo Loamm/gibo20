@@ -1,0 +1,133 @@
+
+@media screen and (max-width: 1024px) {
+	.subjects__text {
+	font-size: 2rem;
+	}
+	.subjects__item:hover .subjects__text {
+	font-size: 2.3rem;
+	}
+}
+
+
+
+@media screen and (max-width: 992px) {
+	html {
+		font-size: 90%;
+	}
+}
+
+
+
+@media screen and (max-width: 768px) {
+	html {
+		font-size: 85%;
+	}
+	.nav {
+		width: 45%;
+	}
+	.subjects__text {
+	font-size: 1.7rem;
+	}
+	.subjects__item:hover .subjects__text {
+	font-size: 1.9rem;
+	}
+
+	.timetable__week {
+	display: block;
+	}
+	.timetable__day {
+	width: 25rem;
+	margin: auto auto 1rem auto;
+	}
+
+	.block-one {
+	padding-top: 1rem;
+	}
+
+}
+
+
+@media screen and (max-width: 425px) {
+	html {
+		font-size: 85%;
+	}
+
+	.block-zero {
+	width: 100%;
+	height: 6rem;
+	background-color: rgb(237, 237, 237);
+	}
+
+	.header {
+	height: 4rem;
+	padding: 0;
+	}
+
+	.header__logo {
+		float: left;
+		margin-left: 4%;
+		margin-top: 0.6rem;
+	}
+	.nav{
+		display: none;
+		text-align: center;
+	}
+	.nav__btm,
+	.nav--open {
+		display: block;
+	}
+
+	.nav--open {
+		background-color: rgb(237, 237, 237);
+		width: 150px;
+		position: absolute;
+		right: 0;
+		top: 32px;
+	}
+
+	.nav__link {
+		padding: 1rem;
+		color: black;
+		display: inline-block;
+	}
+
+
+	.subjects__text {
+	font-size: 2.3rem;
+	}
+	.subjects__item:hover .subjects__text {
+	font-size: 2.7rem;
+	}
+
+	.block-two {
+	margin-top: 3rem;
+	}
+	.block-three {
+	margin-top: 3rem;
+	}
+
+	.subjects__item {
+	float: none;
+	margin-right: 0;
+	margin-bottom: 1rem;
+	width: 100%;
+	}
+
+	.ico__deadline {
+	height: 1.2rem;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	html {
+		font-size: 78.8%;
+	}
+	.timetable__day {
+	width: 22rem;
+	margin: auto auto 1rem auto;
+	}
+
+	.header__logo {
+		font-size: 2.3rem;
+	}
+}
